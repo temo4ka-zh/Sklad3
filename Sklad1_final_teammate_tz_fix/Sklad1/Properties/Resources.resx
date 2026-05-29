@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied1" xml:space="preserve">
+    <value>Доступ запрещён! Только для администратора.</value>
+  </data>
+  <data name="AccessDenied2" xml:space="preserve">
+    <value>Доступ запрещён! Только для администратора.</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>Администратор</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Артикул</value>
+  </data>
+  <data name="ArticleExists" xml:space="preserve">
+    <value>Товар с таким артикулом уже существует!</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="CategoryCreate" xml:space="preserve">
+    <value>Категория успешно создана!</value>
+  </data>
+  <data name="CategoryEdit" xml:space="preserve">
+    <value>Категория успешно изменена!</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Пожалуйста, выберите категорию из списка!</value>
+  </data>
+  <data name="CategoryExists" xml:space="preserve">
+    <value>Категория с таким названием уже существует!</value>
+  </data>
+  <data name="CategoryNotFound" xml:space="preserve">
+    <value>Категория не найдена!</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>Подтверждение удаления</value>
+  </data>
+  <data name="ConfirmDeleteProductText" xml:space="preserve">
+    <value>Удалить выбранный товар?</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Текущий остаток</value>
+  </data>
+  <data name="CyrillicNotAllowed" xml:space="preserve">
+    <value>Кириллица не допускается в адресе электронной почты!</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="EmailExists" xml:space="preserve">
+    <value>Такой email уже есть!</value>
+  </data>
+  <data name="EmailLengthError" xml:space="preserve">
+    <value>Адрес электронной почты должен быть от 5 до 50 символов!</value>
+  </data>
+  <data name="EnterCategoryName" xml:space="preserve">
+    <value>Введите название категории!</value>
+  </data>
+  <data name="EnterEmailAndPassword" xml:space="preserve">
+    <value>Введите email и пароль!</value>
+  </data>
+  <data name="ErrorCreateProduct" xml:space="preserve">
+    <value>Ошибка при создании товара:</value>
+  </data>
+  <data name="ErrorCreatingCategory" xml:space="preserve">
+    <value>Ошибка при создании категории</value>
+  </data>
+  <data name="ErrorDeletingProduct" xml:space="preserve">
+    <value>Ошибка при удалении товара</value>
+  </data>
+  <data name="ErrorEditCategory" xml:space="preserve">
+    <value>Ошибка при редактирование категории:</value>
+  </data>
+  <data name="ErrorEditProduct" xml:space="preserve">
+    <value>Ошибка при редактирование товара</value>
+  </data>
+  <data name="ErrorLoadHistory" xml:space="preserve">
+    <value>Ошибка загрузки истории отгрузок!</value>
+  </data>
+  <data name="ErrorLoadProducts" xml:space="preserve">
+    <value>Ошибка загрузки товаров:</value>
+  </data>
+  <data name="ErrorLogin" xml:space="preserve">
+    <value>Ошибка при входе:</value>
+  </data>
+  <data name="ErrorRegister" xml:space="preserve">
+    <value>Ошибка при регистрации:</value>
+  </data>
+  <data name="ErrorSystem" xml:space="preserve">
+    <value>Ошибка. Произошел сбой в системе!</value>
+  </data>
+  <data name="FillAllFields" xml:space="preserve">
+    <value>Заполните все поля!</value>
+  </data>
+  <data name="InitialQuantity" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="InsufficientStock" xml:space="preserve">
+    <value>Недостаточно товара. </value>
+  </data>
+  <data name="InvalidArticle" xml:space="preserve">
+    <value>Ошибка при создании артикула</value>
+  </data>
+  <data name="InvalidCategoryName" xml:space="preserve">
+    <value>Ошибка в названии категории</value>
+  </data>
+  <data name="InvalidClientName" xml:space="preserve">
+    <value>Название получателя содержит недопустимые символы.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Неверный email или пароль!</value>
+  </data>
+  <data name="InvalidData" xml:space="preserve">
+    <value>Некорректные данные!</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Введите корректный email (например, name@mail.ru)!</value>
+  </data>
+  <data name="InvalidFullName" xml:space="preserve">
+    <value>ФИО должна содержать только буквы!</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Пароль не должен содержать эмодзи</value>
+  </data>
+  <data name="InvalidPasswordLength" xml:space="preserve">
+    <value>Пароль должен быть от 6 до 50 символов!</value>
+  </data>
+  <data name="InvalidPositivePrice" xml:space="preserve">
+    <value>Цена должна быть положительной!</value>
+  </data>
+  <data name="InvalidPrice" xml:space="preserve">
+    <value>Допустимы только цифры.Попробуйте снова.</value>
+  </data>
+  <data name="InvalidProductName" xml:space="preserve">
+    <value>Ошибка в названии товара</value>
+  </data>
+  <data name="InvalidQuantity" xml:space="preserve">
+    <value>Введите корректное количество!</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Вы уверены, что хотите выйти?</value>
+  </data>
+  <data name="LogOutText" xml:space="preserve">
+    <value>Выход из аккаунта</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="NameHasSpaces" xml:space="preserve">
+    <value>ФИО должны быть целыми строками, не содержать пробелы в середине!</value>
+  </data>
+  <data name="NameLengthError" xml:space="preserve">
+    <value>ФИО должно быть от 2 до 50 символов!</value>
+  </data>
+  <data name="PasswordHasSpaces" xml:space="preserve">
+    <value>Пароль должен быть целой строкой, не содержать пробелы в середине!</value>
+  </data>
+  <data name="PasswordsDontMatch" xml:space="preserve">
+    <value>Пароли не совпадают!</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="ProductCreate" xml:space="preserve">
+    <value>Товар успешно создан!</value>
+  </data>
+  <data name="ProductDelete" xml:space="preserve">
+    <value>Товар успешно удалён!</value>
+  </data>
+  <data name="ProductEdit" xml:space="preserve">
+    <value>Товар успешно изменён!</value>
+  </data>
+  <data name="ProductExists" xml:space="preserve">
+    <value>Товар с таким названием уже существует!</value>
+  </data>
+  <data name="ProductLoadError" xml:space="preserve">
+    <value>Ошибка загрузки товаров!</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Товар</value>
+  </data>
+  <data name="ProductNameExists" xml:space="preserve">
+    <value>Товар с таким названием уже существует!</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>Цена закупки</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Количество </value>
+  </data>
+  <data name="RegisterSuccess" xml:space="preserve">
+    <value>Регистрация успешна!</value>
+  </data>
+  <data name="SelectProduct" xml:space="preserve">
+    <value>Выберите товар!</value>
+  </data>
+  <data name="ShipmentError" xml:space="preserve">
+    <value>Ошибка при выполнении отгрузки! Проверьте остатки товаров.</value>
+  </data>
+  <data name="ShipmentNoClient" xml:space="preserve">
+    <value>Укажите получателя!</value>
+  </data>
+  <data name="ShipmentNoItems" xml:space="preserve">
+    <value>Добавьте хотя бы один товар!</value>
+  </data>
+  <data name="ShipmentSuccess" xml:space="preserve">
+    <value>Отгрузка выполнена успешно!</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Текущий остаток</value>
+  </data>
+  <data name="Storekeeper" xml:space="preserve">
+    <value>Кладовщик</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Складской учёт </value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Пользователь с таким email не найден!</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value> Неверный пароль!</value>
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Доступ запрещён! Только для администратора.</value>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>Выручка</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Себестоимость</value>
+  </data>
+  <data name="Losses" xml:space="preserve">
+    <value>Убытки</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>Прибыль</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Сформировать</value>
+  </data>
+  <data name="Generating" xml:space="preserve">
+    <value>Формирование...</value>
+  </data>
+  <data name="ReportTitle" xml:space="preserve">
+    <value>Аналитический отсчет</value>
+  </data>
+  <data name="PeriodFormat" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>Успешно сформирован</value>
+  </data>
+  <data name="ErrorLoadCurrency" xml:space="preserve">
+    <value>Ошибка загрузки валюты</value>
+  </data>
+  <data name="ErrorGenerateReport" xml:space="preserve">
+    <value>Ошибка формирования отчёт</value>
+  </data>
+  <data name="ErrorCurrencyConversion" xml:space="preserve">
+    <value>Ошибка конвертации валют</value>
+  </data>
+  <data name="ErrorExport" xml:space="preserve">
+    <value>Ошибка экспорта</value>
+  </data>
+  <data name="ErrorPrint" xml:space="preserve">
+    <value>Ошибка печати</value>
+  </data>
+  <data name="NoDataToExport" xml:space="preserve">
+    <value>Нет данных для экспорта</value>
+  </data>
+  <data name="NoDataToPrint" xml:space="preserve">
+    <value>Нет данных для печати</value>
+  </data>
+  <data name="ReportSaved" xml:space="preserve">
+    <value>Отчёт сохранён</value>
+  </data>
+  <data name="PrintSuccess" xml:space="preserve">
+    <value>Отчёт отправлен на печать</value>
+  </data>
+  <data name="CsvFilter" xml:space="preserve">
+    <value>CSV файлы (*.csv)|*.csv|Excel файлы (*.xlsx)|*.xlsx|PDF файлы (*.pdf)|*.pdf</value>
+  </data>
+  <data name="UnknownProduct" xml:space="preserve">
+    <value>Товар удален</value>
+  </data>
+  <data name="UnknownClient" xml:space="preserve">
+    <value>Не указа</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="RateToRub" xml:space="preserve">
+    <value>Курс к Rub</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Обновлено</value>
+  </data>
+  <data name="UpdateRates" xml:space="preserve">
+    <value>Обновить курсы</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Обновление...</value>
+  </data>
+  <data name="RatesUpdated" xml:space="preserve">
+    <value>Курсы валют успешно обновлены</value>
+  </data>
+  <data name="RatesUpdateFailed" xml:space="preserve">
+    <value>Не удалось обновить курсы. Используются последние сохранённые значения</value>
+  </data>
+  <data name="SettingsSaved" xml:space="preserve">
+    <value>Настройки сохранены</value>
+  </data>
+  <data name="ErrorLoadRates" xml:space="preserve">
+    <value>Ошибка загрузки курсов валют</value>
+  </data>
+  <data name="ErrorLoadDisplayCurrency" xml:space="preserve">
+    <value>Ошибка загрузки настроек валюты</value>
+  </data>
+  <data name="ErrorUpdateRates" xml:space="preserve">
+    <value>Ошибка при обновлении курсов</value>
+  </data>
+  <data name="ErrorSaveSettings" xml:space="preserve">
+    <value>Ошибка сохранения настроек</value>
+  </data>
+  <data name="InvalidExpiryDate" xml:space="preserve">
+    <value>Срок годности не может быть в прошлом</value>
+  </data>
+  <data name="NoArticle" xml:space="preserve">
+    <value>Нет артикула</value>
+  </data>
+  <data name="ExpiryDate" xml:space="preserve">
+    <value>Срок годности</value>
+  </data>
+  <data name="DaysLeft" xml:space="preserve">
+    <value>Дней до истечения</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ConfirmWriteOff" xml:space="preserve">
+    <value>Списать все просроченные товары</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="WritingOff" xml:space="preserve">
+    <value>Списание...</value>
+  </data>
+  <data name="WriteOffComplete" xml:space="preserve">
+    <value>Просроченные товары списаны</value>
+  </data>
+  <data name="WriteOff" xml:space="preserve">
+    <value>Списать просроченные</value>
+  </data>
+  <data name="ErrorLoadBatches" xml:space="preserve">
+    <value>Ошибка загрузки партий</value>
+  </data>
+  <data name="ErrorWriteOff" xml:space="preserve">
+    <value>Ошибка при списании</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Ед.изм.</value>
+  </data>
+  <data name="BatchCount" xml:space="preserve">
+    <value>Партий</value>
+  </data>
+  <data name="DefaultUnit" xml:space="preserve">
+    <value>шт</value>
+  </data>
+  <data name="ConfirmSaveSupply" xml:space="preserve">
+    <value>Позиции добавлены. Сохранить поставку?</value>
+  </data>
+  <data name="ErrorSaveSupply" xml:space="preserve">
+    <value>Ошибка при сохранении поставки</value>
+  </data>
+  <data name="SupplySaved" xml:space="preserve">
+    <value>Поставка сохранена</value>
+  </data>
+  <data name="ProductAdded" xml:space="preserve">
+    <value>Товар добавлен</value>
+  </data>
+  <data name="ManualInput" xml:space="preserve">
+    <value>Ручной ввод</value>
+  </data>
+  <data name="InvalidCost" xml:space="preserve">
+    <value>Введите корректную себестоимость</value>
+  </data>
+  <data name="EnterPrice" xml:space="preserve">
+    <value>Введите себестоимость закупки</value>
+  </data>
+  <data name="EnterQuantity" xml:space="preserve">
+    <value>Введите количество</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="ErrorFileLoad" xml:space="preserve">
+    <value>Ошибка загрузки файла</value>
+  </data>
+  <data name="SupportedFormatOnly" xml:space="preserve">
+    <value>Поддерживаются только .csv и .xlsx</value>
+  </data>
+  <data name="SelectFileFirst" xml:space="preserve">
+    <value>Сначала выберите файл</value>
+  </data>
+  <data name="FileFilter" xml:space="preserve">
+    <value>Файлы CSV (*.csv)|*.csv|Файлы Excel (*.xlsx)|*.xlsx</value>
+  </data>
+  <data name="DialogTitle" xml:space="preserve">
+    <value>Выберите файл с поставкой</value>
+  </data>
+  <data name="NoDataToImport" xml:space="preserve">
+    <value>Нет данных для импорта</value>
+  </data>
+  <data name="BtnImport" xml:space="preserve">
+    <value>Импорт...</value>
+  </data>
+  <data name="ImportComplete" xml:space="preserve">
+    <value>Импорт завершён!</value>
+  </data>
+  <data name="ErrorImport" xml:space="preserve">
+    <value>Ошибка при импорте</value>
+  </data>
+  <data name="BtnImportText" xml:space="preserve">
+    <value>Импортировать</value>
+  </data>
+  <data name="CurrentQuantity" xml:space="preserve">
+    <value>Остаток</value>
+  </data>
+  <data name="SearchByClient" xml:space="preserve">
+    <value>Покупатель</value>
+  </data>
+  <data name="SearchByNumber" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="ItemsCount" xml:space="preserve">
+    <value>Позиций</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="TotalInfo" xml:space="preserve">
+    <value>Информация найдена</value>
+  </data>
+  <data name="DateFromLaterThanDateTo" xml:space="preserve">
+    <value>Дата начала периода не может быть позже даты окончания</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="InvalidShipment" xml:space="preserve">
+    <value>Нет доступных партий для отгрузки (все просрочены)</value>
+  </data>
+  <data name="InsufficientGoods" xml:space="preserve">
+    <value>Недостаточно годного товара. Просроченные товары не могут быть отгружены</value>
+  </data>
+  <data name="StatusExpired" xml:space="preserve">
+    <value>Просрочена</value>
+  </data>
+  <data name="Discount30" xml:space="preserve">
+    <value>Скидка 30%</value>
+  </data>
+  <data name="Discount10" xml:space="preserve">
+    <value>Скидка 10%</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Норма</value>
+  </data>
+  <data name="ErrorLoadSearch" xml:space="preserve">
+    <value>Ошибка загрузки подсказок для поиска</value>
+  </data>
+  <data name="ErrorSaveCurrency" xml:space="preserve">
+    <value>Ошибка сохранения валюты</value>
+  </data>
+  <data name="ErrorData" xml:space="preserve">
+    <value>Ошибка: данные не распознаны</value>
+  </data>
+  <data name="ErrorInternet" xml:space="preserve">
+    <value>Нет соединения с интернетом. Повторите попытку позже</value>
+  </data>
+  <data name="ErrorNegativeQuantityTitle" xml:space="preserve">
+    <value>Ошибка валидации</value>
+  </data>
+  <data name="ErrorNegativeQuantityMessage" xml:space="preserve">
+    <value>Обнаружены товары с отрицательным количеством</value>
+  </data>
+  <data name="ErrorNegativeQuantityAndMore" xml:space="preserve">
+    <value>и другие</value>
+  </data>
+  <data name="ErrorNegativeQuantityFooter" xml:space="preserve">
+    <value>Импорт невозможен. Измените данные и попробуйте снова</value>
+  </data>
+</root>
