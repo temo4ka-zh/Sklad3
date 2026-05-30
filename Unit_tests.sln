@@ -1,0 +1,32 @@
+﻿using NUnit.Framework;
+using Sklad1.Data;
+using Sklad1.Models;
+using System;
+
+namespace Sklad1.Tests.Models
+{
+    [TestFixture]
+    public class ShipmentAndItemsTests
+    {
+        [Test]
+        public void Test_Shipment_Creation_And_Properties()
+        {
+            // Arrange
+            var shipmentId = Guid.NewGuid();
+            var testDate = DateTime.UtcNow;
+
+            // Act
+            var shipment = new Shipment
+            {
+                Id = shipmentId,
+                Client = "К-поперы", 
+                Date = testDate
+            };
+
+            // Assert
+            Assert.AreEqual(shipmentId, shipment.Id);
+            Assert.AreEqual("К-поперы", shipment.Client);
+            Assert.AreEqual(testDate, shipment.Date);
+        }
+    }
+}

@@ -1,0 +1,22 @@
+﻿using NUnit.Framework;
+using Sklad1.Models;
+using Sklad1.Helpers;
+
+namespace Sklad1.Tests.Models
+{
+    [TestFixture]
+    public class SettingsDefaultLogicTests
+    {
+        [Test]
+        public void Test_Setting_CurrencyManager_DefaultFallback_Is_Correct()
+        {
+            // Act
+            string rubSymbol = AppCurrencyManager.GetCurrencySymbol("RUB");
+            string usdSymbol = AppCurrencyManager.GetCurrencySymbol("USD");
+
+            // Assert
+            Assert.AreEqual("₽", rubSymbol);
+            Assert.AreEqual("$", usdSymbol);
+        }
+    }
+}
